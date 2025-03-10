@@ -64,7 +64,7 @@ modelo = load_model()
 # Cargar el dataset original para obtener las categorías
 @st.cache_data
 def load_original_data():
-    return pd.read_csv(r"C:\Users\capor\Downloads\dataset(in).csv")
+    return pd.read_csv("dataset(in).csv")
 
 df_original = load_original_data()
 
